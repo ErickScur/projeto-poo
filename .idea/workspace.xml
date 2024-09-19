@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da15c001-e15f-4139-84d1-6111937f67f7" name="Changes" comment="feat: add roman numeral converter">
-      <change afterPath="$PROJECT_DIR$/src/primeirob/projeto2/conversorromano/data/repositories/LoadAvailableRomanNumeralsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeirob/projeto2/conversorromano/data/usecasesimplementation/ConvertRomanNumeralToDecimalUseCaseImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeirob/projeto2/conversorromano/domain/entities/RomanNumeral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeirob/projeto2/conversorromano/domain/usecases/ConvertRomanNumeralToDecimalUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeirob/projeto2/conversorromano/infra/MockLoadAvailableRomanNumeralsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeirob/projeto2/conversorromano/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeirob/projeto2/conversorromano/main/factories/RomanNumeralConverterSwingInterfaceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeirob/projeto2/conversorromano/presentation/RomanNumeralConverterSwingInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20240303.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/primeirob/projeto3/ClienteChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/primeirob/projeto3/ServidorChat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +40,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ClienteChat.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.ServidorChat.executor": "Run",
     "Application.Teste.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/erickscur/IdeaProjects/projeto-poo",
@@ -65,10 +63,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/primeirob/projeto3/res" />
       <recent name="$PROJECT_DIR$/src/primeirob/projeto2/res" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ClienteChat">
+    <configuration name="ClienteChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primeirob.projeto3.ClienteChat" />
+      <module name="POO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primeirob.projeto3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="primeirob.projeto2.conversorromano.main.Main" />
       <module name="POO" />
@@ -82,8 +94,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServidorChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primeirob.projeto3.ServidorChat" />
+      <module name="POO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primeirob.projeto3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClienteChat" />
+        <item itemvalue="Application.ServidorChat" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -118,6 +145,10 @@
       <workItem from="1724278310662" duration="14000" />
       <workItem from="1724885474019" duration="5932000" />
       <workItem from="1724936326905" duration="794000" />
+      <workItem from="1726006916793" duration="4000" />
+      <workItem from="1726094289091" duration="2625000" />
+      <workItem from="1726611827345" duration="2000" />
+      <workItem from="1726743957954" duration="328000" />
     </task>
     <task id="LOCAL-00001" summary="fix: remove Main file">
       <option name="closed" value="true" />
@@ -159,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725491426370</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: add roman numeral converter">
+      <option name="closed" value="true" />
+      <created>1725492109157</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725492109157</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

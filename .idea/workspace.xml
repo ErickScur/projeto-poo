@@ -4,10 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da15c001-e15f-4139-84d1-6111937f67f7" name="Changes" comment="feat: add roman numeral converter">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20240303.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeirob/projeto3/ClienteChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeirob/projeto3/ServidorChat.java" afterDir="false" />
+    <list default="true" id="da15c001-e15f-4139-84d1-6111937f67f7" name="Changes" comment="feat: projeto 3">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/data/protocols/database/account/ICreateAccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/data/protocols/database/account/ILoadAccountByDocumentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/data/protocols/database/account/ILoadAccountByEmailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/data/protocols/validators/IAccountValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/data/usecasesimplementation/account/CreateAccountUseCaseImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/data/usecasesimplementation/account/LoginAccountUseCaseImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/domain/dto/account/CreateAccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/domain/entities/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/domain/exceptions/UniqueFieldInUseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/domain/exceptions/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/domain/usecases/account/ICreateAccountUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/domain/usecases/account/ILoginAccountUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/domain/usecases/pix/IGeneratePixQRCodeUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/infra/database/inmemory/InMemoryRepositoriesUnitOfWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/infra/database/inmemory/account/InMemoryAccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/infra/validators/AccountValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/main/factories/controller/AppControllerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/main/factories/presentation/PresentationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/main/factories/repositories/CreateAccountRepositoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/main/factories/repositories/LoadAccountByDocumentRepositoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/main/factories/repositories/LoadAccountByEmailRepositoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/main/factories/usecases/account/CreateAccountUseCaseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/main/factories/usecases/account/LoginAccountUseCaseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/main/factories/validators/AccountValidatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/presentation/Presentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/presentation/controllers/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundob/projetobanco/src/main/java/com/api/presentation/implementations/console/ConsoleInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,36 +72,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ClienteChat.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.ServidorChat.executor": "Run",
-    "Application.Teste.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/erickscur/IdeaProjects/projeto-poo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/erickscur/IdeaProjects/POO/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ClienteChat.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServidorChat.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teste.executor&quot;: &quot;Run&quot;,
+    &quot;Application.segundob.projetobanco.src.main.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/erickscur/IdeaProjects/projeto-poo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/erickscur/IdeaProjects/POO/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27471265&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/segundob/projetobanco/src/infra/res" />
       <recent name="$PROJECT_DIR$/src/primeirob/projeto3/res" />
       <recent name="$PROJECT_DIR$/src/primeirob/projeto2/res" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClienteChat">
+  <component name="RunManager" selected="Application.segundob.projetobanco.src.main.Main">
     <configuration name="ClienteChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="primeirob.projeto3.ClienteChat" />
       <module name="POO" />
@@ -107,8 +147,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="segundob.projetobanco.src.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="segundob.projetobanco.src.main.Main" />
+      <module name="POO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="segundob.projetobanco.src.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.segundob.projetobanco.src.main.Main" />
         <item itemvalue="Application.ClienteChat" />
         <item itemvalue="Application.ServidorChat" />
         <item itemvalue="Application.Main" />
@@ -148,7 +202,24 @@
       <workItem from="1726006916793" duration="4000" />
       <workItem from="1726094289091" duration="2625000" />
       <workItem from="1726611827345" duration="2000" />
-      <workItem from="1726743957954" duration="328000" />
+      <workItem from="1726743957954" duration="986000" />
+      <workItem from="1727208820250" duration="33000" />
+      <workItem from="1727821024055" duration="6000" />
+      <workItem from="1728425966528" duration="920000" />
+      <workItem from="1729118412809" duration="3001000" />
+      <workItem from="1730241343211" duration="7526000" />
+      <workItem from="1730327486388" duration="109000" />
+      <workItem from="1730327601063" duration="213000" />
+      <workItem from="1730327859930" duration="200000" />
+      <workItem from="1730328076006" duration="672000" />
+      <workItem from="1730845831435" duration="3216000" />
+      <workItem from="1731511140706" duration="5000" />
+      <workItem from="1731536070381" duration="663000" />
+      <workItem from="1731537207292" duration="1106000" />
+      <workItem from="1732042459954" duration="410000" />
+      <workItem from="1732056477220" duration="36000" />
+      <workItem from="1732058844664" duration="599000" />
+      <workItem from="1732640762903" duration="184000" />
     </task>
     <task id="LOCAL-00001" summary="fix: remove Main file">
       <option name="closed" value="true" />
@@ -198,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725492109157</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: projeto 3">
+      <option name="closed" value="true" />
+      <created>1726744327420</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726744327420</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +291,7 @@
     <MESSAGE value="feat: add exchange rate" />
     <MESSAGE value="chore: add json jar to project" />
     <MESSAGE value="feat: add roman numeral converter" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add roman numeral converter" />
+    <MESSAGE value="feat: projeto 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: projeto 3" />
   </component>
 </project>

@@ -1,0 +1,15 @@
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             version="3.1">
+    <persistence-unit name="SupabasePU">
+        <class>com.api.domain.entities.Account</class>
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:postgresql://aws-0-sa-east-1.pooler.supabase.com:6543/postgres"/>
+            <property name="hibernate.connection.username" value="postgres.mxetudimfvdrgjgdmrnu"/>
+            <property name="hibernate.connection.password" value="ciahjucia8*#E8diqjcxiaa1"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.show_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
